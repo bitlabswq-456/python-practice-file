@@ -1,0 +1,19 @@
+#program to find length of the set
+
+nums=set()
+
+for i in range(5):
+    
+   n=int(input("enter value"))
+    
+   nums.add(n)
+
+print(nums)
+
+count = 0
+
+for s in nums:
+      
+   count = count+1
+
+print("Length of the set is:", count)
