@@ -1,0 +1,5 @@
+#print number of words in a given string
+
+s1 = "welcome to python"
+
+print(len(s1.split()))
