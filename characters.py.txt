@@ -1,0 +1,24 @@
+#print number of characters in each word in a given string 
+
+s1 = input("Enter string: ")
+
+alphabets=0
+
+for i in range(len(s1)):
+
+    if((s1[i] >= 'a' and s1[i] <= 'z') or (s1[i] >= 'A' and s1[i] <= 'Z')):
+ 
+        alphabets = alphabets + 1 
+
+for word in s1.split():
+
+    character_count = 0
+    
+for letter in word:
+
+        if letter in s1:
+
+            character_count=character_count+1
+    
+print(word,"have characters :", character_count)
+    
