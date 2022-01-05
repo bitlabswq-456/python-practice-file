@@ -1,0 +1,11 @@
+#program to define public variables
+class ABC:
+    name="harika"
+    def m1(self):
+        print(self.name)
+class XYZ(ABC):
+    def m2(self):
+        print(self.name)
+
+obj=XYZ()
+obj.m2()
